@@ -1,0 +1,600 @@
+\chapter{IMPLEMENTATION}
+
+This chapter gives a brief description about implementation details of the
+system by describing each module with its code skeleton. The language used for implementation is C\# and Platform used is Windows phone 7.
+
+\section{Prototype : 1}
+\hspace{1cm}In prototype 1 implementation of introduction,  level 1 and level 2 was been carried.
+\subsection{Introduction}
+\ttfamily \hspace{1cm}
+Code skeleton:\\
+\\
+
+namespace MD\\
+\{\\
+    
+    public partial class Page2 : PhoneApplicationPage\\
+   {\\
+        public Page2()\\
+        {\\
+            InitializeComponent()\\;
+
+            
+        }\\
+        void leve1()\\
+        {\\
+
+        }\\
+        public void doStuff()\\
+        {\\
+           
+            System.Threading.Thread startupThread =\\
+                             new System.Threading.Thread(new System.Threading.ThreadStart(pDelay2));\\
+            startupThread.Start();\\
+        }\\
+        public void doStuff2()\\
+        {\\
+
+            System.Threading.Thread startupThread =\\
+                             new System.Threading.Thread(new System.Threading.ThreadStart(pDelay3));\\
+            startupThread.Start();\\
+        }\\
+        public void doStuff3()\\
+       {\\
+            button2.Visibility = Visibility;\\
+        }\\
+        BitmapImage im2 = new BitmapImage(new Uri("/MD;component/Images/sds.png", UriKind.Relative));\\
+        BitmapImage im1 = new BitmapImage(new Uri("/MD;component/Images/z.png", UriKind.Relative));\\
+        BitmapImage im3 = new BitmapImage(new Uri("/MD;component/q.png", UriKind.Relative));\\
+        BitmapImage im4 = new BitmapImage(new Uri("/MD;component/w.png", UriKind.Relative));\\
+        BitmapImage im5 = new BitmapImage(new Uri("/MD;component/Xtvv.jpg", UriKind.Relative));\\
+        BitmapImage im6 = new BitmapImage(new Uri("/MD;component/dhaka2.png", UriKind.Relative));\\
+        BitmapImage im7 = new BitmapImage(new Uri("/MD;component/ww.png", UriKind.Relative));\\
+        BitmapImage im8 = new BitmapImage(new Uri("/MD;component/v1.png", UriKind.Relative));\\
+        BitmapImage im9 = new BitmapImage(new Uri("/MD;component/v2.png", UriKind.Relative));\\
+ 
+        private void button1_Click_1(object sender, RoutedEventArgs e)\\
+        {\\
+            
+            System.Threading.Thread startupThread =\\
+                              new System.Threading.Thread(new System.Threading.ThreadStart(pDelay));\\
+            startupThread.Start();\\
+           // DoStuff();\\
+        }\\
+        private void button1_Click(object sender, RoutedEventArgs e)\\
+        {\\
+            
+           
+    
+        }\\
+        void pDelay3()\\
+        {\\
+            int k = 20, j = 1, m = 0;\\
+            Boolean flag2 = true;\\
+            for (int i = 0; i < 50; i++)\\
+            \{\\
+                System.Threading.Thread.Sleep(150);\\
+
+                this.Dispatcher.BeginInvoke(() =>\\
+               \{\\
+                    image1.Source = im5;\\
+
+                    \{\\
+                        image3.Visibility = Visibility;\\
+                        if (flag2)\\
+                        \{\\
+                            if (image3.Height != 0 || image3.Width != 0)\\
+                            \{\\
+                                image3.Height = image3.Height - 10;\\
+                                image3.Width = image3.Width - 10;\\
+                            \}\\
+                            else\\
+                           \{\\
+                                button2.Visibility = Visibility;\\
+                            \}\\
+                            
+                        \}
+
+                    \}
+                \}\\);\\
+            \}\\
+        //    doStuff3();\\
+        \}\\
+        void pDelay2()\\
+        \{\\
+            int k=20,j=1,m=0;\\
+             Boolean flag2 = true;\\
+            for (int i = 0; i < 50; i++)\\
+            \{\\
+                System.Threading.Thread.Sleep(150);\\
+
+                this.Dispatcher.BeginInvoke(() =>\\
+                \{\\
+                    image1.Source = im5;\\
+                    image2.Source = im3;\\
+                   
+                    \{\\
+                        image3.Visibility = Visibility;\\
+                        if (flag2)\\
+                        \{\\
+                            if (image3.Height < 110 || image3.Width < 130)\\
+                            \{\\
+                                image3.Height = image3.Height + 10;\\
+                                image3.Width = image3.Width + 10;\\
+                            \}\\
+                            else\\
+                            \{\\
+                                //NavigationService.Navigate(new Uri("/Page2a.xaml", UriKind.Relative));\\
+                                if (j == 0)\\
+                                \{\\
+                                    image3.Source = im8;\\
+                                    j=1;\\
+                                \}\\
+                                else\\
+                                \{\\
+                                    image3.Source = im9;\\
+                                    j = 0;\\
+                                \}\\
+                            \}
+                        \}
+                           
+                        \}\\                     
+                \}\\);\\
+            \}\\
+            doStuff2();\\
+        \}\\
+
+        void pDelay()\\
+        \{\\
+            int j = 0, k = 6,m=550,n=550;\\
+            Boolean flag = true;\\
+           
+            for (int i = 0; i < 50; i++)\\
+            \{\\
+
+                System.Threading.Thread.Sleep(150);\\
+
+                this.Dispatcher.BeginInvoke(() =>\\
+                \{\\
+                    if(flag)\\
+                    \{\\
+
+                        if (j == 0)\\
+                        \{\\
+                            image2.Source = im1;\\
+                            image2.Margin = new Thickness(k, 26, 0, 0); k = k + 10;\\
+                            j = 1; m=m-10;\\
+                            if (m == 0)\\
+                            \{\\
+                                flag = false;\\
+                            \}\\
+
+
+                        \}\\
+                        else\\
+                        \{\\
+                            image2.Source = im2;\\
+                            image2.Margin = new Thickness(k, 26, 0, 0); k = k + 10;\\
+                            j = 0; m=m-10;\\
+                            if (m == 0)\\
+                            \{\\
+                                flag = false;\\
+                            \}\\
+                        \}
+                    \}
+
+
+                    else\\
+                    \{\\
+                        if (j == 0)\\
+                        \{\\
+                            image2.Source = im3;\\
+                            image2.Margin = new Thickness(k, 26, 0, 0); k = k - 10;\\
+                            j = 1; \\
+                            
+                                m = m + 10;\\
+                                if (m == 550)\\
+                                \{\\
+                                    flag = true;\\
+                                \}\\
+                        \}\\
+                        else\\
+                        \{\\
+                            image2.Source = im4;\\
+                            image2.Margin = new Thickness(k, 26, 0, 0); k = k - 10;\\
+                            j = 0; m = m + 10;\\
+                            if (m == 550)\\
+                            \{\\
+                                flag = true;\\
+                            \}\\
+                        \}
+                    \}
+                   
+
+
+
+                \}\\);\\
+            \}\\
+           doStuff();\\
+        \}\\
+        
+        void azzDelay1()\\
+        \{\\
+
+            for (int i = 0; i < 400; i++)\\
+            \{\\
+                Thread.Sleep(250);\\
+                
+
+                this.Dispatcher.BeginInvoke(() =>\\
+                \{\\
+                                            
+
+                \}\\);\\
+            \}\\
+            
+        \}\\
+
+        private void image2_ImageFailed(object sender, ExceptionRoutedEventArgs e)\\
+        \{\\
+
+        \}\\
+
+        private void button2_Click(object sender, RoutedEventArgs e)\\
+        \{\\
+            NavigationService.Navigate(new Uri("/Page3.xaml", UriKind.Relative));\\
+        \}\\
+
+        
+    \}
+\}
+
+\rmfamily
+
+
+
+\subsection{Level1}\\
+\ttfamily \hspace{1cm}\\
+
+
+namespace MD\\
+\{\\
+    public partial class Page4 : PhoneApplicationPage\\
+    \{\\
+        public Page4()\\
+        \{\\
+            InitializeComponent();\\
+        \}\\
+        private void image1_ImageFailed(object sender, ExceptionRoutedEventArgs e)\\
+        \{\\
+
+        \}\\
+        int i = 3, m = 2;\\
+        private void button3_Click(object sender, RoutedEventArgs e)\\
+        \{\\
+            string s1;\\
+            s1 = textBox1.Text;\\
+            if (s1 == "cross breed")\\
+            \{\\
+                textBlock2.Visibility = Visibility.Collapsed;\\
+                textBlock3.Visibility = Visibility.Collapsed;\\
+                button1.Visibility = Visibility;\\
+                textBlock5.Text = "You got it Right.Press Continue";\\
+                
+           \}\\
+            else\\
+            \{\\
+                textBlock5.Text = "Sorry You are wrong !!!";\\
+                textBox1.Text = "";\\
+                if (m != 0)\\
+                \{\\
+
+                    if (m == 2)\\
+                    \{\\
+                        
+                        textBlock5.Text = "Sorry You are wrong !!!";\\
+                        textBlock3.Text = "2"; m--;\\
+                    \}\\
+                    else if (m == 1)\\
+                    \{\\
+                        textBlock5.Text = "Sorry You are wrong again !!!";\\
+                        textBlock3.Text = "1"; m--;\\
+                    \}\\
+                \}
+                else
+                \{\\
+                    NavigationService.Navigate(new Uri("/Page35.xaml", UriKind.Relative));\\
+                \}\\
+            \}\\
+        \}\\
+        private void button1_Click(object sender, RoutedEventArgs e)\\
+        \{\\
+            NavigationService.Navigate(new Uri("/Page5.xaml", UriKind.Relative));\\
+        \}\\
+    \}
+\}
+
+
+
+
+\rmfamily
+
+
+
+\subsection{Level2}
+\ttfamily \hspace{1cm}
+\rmfamily
+Code skeleton:\\
+namespace MD\\
+\{\\
+    public partial class Page10 : PhoneApplicationPage\\
+    \{\\
+        public Page10()\\
+        \{\\
+            InitializeComponent();\\
+        \}\\
+        int i = 3, m = 2;\\
+        private void image1_ImageFailed(object sender, ExceptionRoutedEventArgs e)\\
+        \{\\
+            
+        \}\\
+        private void button1_Click(object sender, RoutedEventArgs e)\\
+        \{\\
+            NavigationService.Navigate(new Uri("/Page11.xaml", UriKind.Relative));\\
+        \}\\
+
+        private void button3_Click(object sender, RoutedEventArgs e)\\
+        \{\\
+            string s1;\\
+            s1 = textBox1.Text;\\
+            if (s1 == "top secret")\\
+            \{\\
+                button1.Visibility = Visibility;\\
+                textBlock5.Text = "You got it Right.Press Continue";\\
+            \}\\
+            else\\
+            \{\\                textBlock5.Text = "Sorry You are wrong !!!";\\
+                textBox1.Text = "";\\
+                if (m != 0)\\
+                \{\\
+
+                    if (m == 2)\\
+                    \{\\
+                        textBlock5.Text = "Sorry You are wrong !!!";\\
+                        textBlock3.Text = "2"; m--;\\
+                    \}\\
+                    else if (m == 1)\\
+                    \{\\
+                        textBlock5.Text = "Sorry You are wrong again !!!";\\
+                        textBlock3.Text = "1"; m--;\\
+                    \}\\
+                \}
+                else\\
+                \{\\
+                    NavigationService.Navigate(new Uri("/Page35.xaml", UriKind.Relative));\\
+                \}
+            \}
+        \}
+    \}
+\}\\
+
+
+
+
+
+\section{Prototype : 2}
+\hspace{1cm}In prototype  implementation of level3, level 4 and level 5  was been carried.
+
+\subsection{Level3}
+\ttfamily \hspace{1cm}Describe the component and write the actual code for the specific component.
+Code skeleton:\\
+\\
+namespace MD\\
+\{
+    public partial class Page16 : PhoneApplicationPage\\
+    \{
+        public Page16()\\
+        \{
+            InitializeComponent();\\
+            System.Threading.Thread startupThread =\\
+                             new System.Threading.Thread(new System.Threading.ThreadStart(timeDec));\\
+            startupThread.Start();\\
+        \}
+        Boolean flag = true;\\
+        Boolean flag3 = true;\\
+        void timeDec()\\
+        \{
+            int k = 20, j = 1, m = 0;\\
+            
+            for (int i = 0; i < 121; i++)\\
+            \{
+                System.Threading.Thread.Sleep(1000);\\
+
+                this.Dispatcher.BeginInvoke(() =>\\
+                \{
+                    if (flag)\\
+                    \{
+                        if (flag3)\\
+                        \{
+                            string s1;\\
+                            s1 = textBlock7.Text;\\
+                            int num = int.Parse(s1);\\
+                            num--;\\
+                            s1 = num.ToString();\\
+                            textBlock7.Text = s1;\\
+                       
+                            if (i == 120)\\
+                            \{\\
+                                flag = false;\\
+                            \}\\
+                        \}
+                        else\\
+                        \{
+                            
+                        \}
+                    \}
+                    else
+                    \{
+                       // NavigationService.Navigate(new Uri("/Page36.xaml", UriKind.Relative));\\
+                    \}
+                \});
+            \}
+            //    doStuff3();\\
+        \}
+        private void image1_ImageFailed(object sender, ExceptionRoutedEventArgs e)\\
+        \{
+
+        \}
+        private void button1_Click(object sender, RoutedEventArgs e)\\
+        \{
+            NavigationService.Navigate(new Uri("/Page17.xaml", UriKind.Relative));\\
+        \}
+        int i = 3, m = 2;\\
+        Boolean flag1 = true;\\
+        Boolean flag2 = true;\\
+        private void button3_Click(object sender, RoutedEventArgs e)\\
+        \{
+            string s1;\\
+            s1 = textBox1.Text;\\
+            if (s1 == "moral support")\\
+            \{
+                flag3 = false;\\
+                button1.Visibility = Visibility;\\
+                textBlock10.Text = "E";\\
+                textBlock11.Text = "C";\\
+                textBlock2.Visibility = Visibility.Collapsed;\\
+                textBlock3.Visibility = Visibility.Collapsed;\\
+                textBlock5.Text = "You got it Right. 2 of 6 letters are unlocked...Press Continue";\\
+            \}
+            else
+            \{
+                textBlock5.Text = "Sorry You are wrong !!!";\\
+                if (flag1 == false)\\
+                \{
+
+                    
+                \}
+                textBox1.Text = "";\\
+                if (m != 0)\\
+                \{
+
+                    if (m == 2)\\
+                    \{
+                        textBlock5.Text = "Sorry You are wrong !!!";\\
+                        textBlock3.Text = "2"; m--;\\
+                    \}
+                    else if (m == 1)\\
+                    \{
+                        textBlock5.Text = "Sorry You are wrong again !!!";\\
+                        textBlock3.Text = "1"; m--;\\
+                    \}
+                \}
+                else
+                \{
+                    if (flag2)\\
+                    \{
+                        image3.Visibility = Visibility.Collapsed;\\
+                        textBlock5.Text = "You lost a life !!! ";\\
+                        textBlock3.Text = "3";\\
+                        m = 2;\\
+                        flag2 = false;\\
+                    \}
+                    else
+                    \{
+                        NavigationService.Navigate(new Uri("/Page35.xaml", UriKind.Relative));\\
+                    \}
+                \}
+            \}
+        \}
+    \}
+\}
+
+
+
+
+
+
+
+\section{Prototype : 3}
+\hspace{1cm}In prototype 3 implementation of timing constraints, bonus life option and climax was been carried.
+\subsection{Climax}
+\ttfamily \hspace{1cm}
+Code skeleton:\\
+
+namespace MD
+\{
+    public partial class Page33 : PhoneApplicationPage
+    \{
+        public Page33()
+        \{
+            InitializeComponent();\\
+            System.Threading.Thread startupThread =\\
+                          new System.Threading.Thread(new System.Threading.ThreadStart(pDelay));\\
+            startupThread.Start();
+        \}\\
+        BitmapImage im1 = new BitmapImage(new Uri("/MD;component/Images/d.png", UriKind.Relative));\\
+        BitmapImage im2 = new BitmapImage(new Uri("/MD;component/Images/dhj.png", UriKind.Relative));\\
+        BitmapImage im3 = new BitmapImage(new Uri("/MD;component/Images/asa.png", UriKind.Relative));\\
+        BitmapImage im4 = new BitmapImage(new Uri("/MD;component/Images/asb.png", UriKind.Relative));\\
+        void pDelay()
+        \{
+            int k = 0, j = 1, m = 0,k1=460,k2=300,k3=400;\\
+            Boolean flag = true;\\
+            Boolean flag1 = true;\\
+            for (int i = 0; i < 500; i++)
+            \{
+                System.Threading.Thread.Sleep(150);
+
+                this.Dispatcher.BeginInvoke(() =>
+                \{
+                    if (flag)
+                    \{
+                        if (flag1)
+                        \{
+                            if (j == 0)
+                            \{
+                                image3.Source = im3;\\
+                                image2.Source = im1;\\
+                                image2.Margin = new Thickness(k, 222, 0, 0); k = k + 5;\\
+                                image3.Margin = new Thickness(k1, 170, 0, 0); k1 = k1 - 5;\\
+                                j = 1;
+                                if (k > 240 && k1 < 255)
+                                    flag1 = false;
+
+                            \}
+                            else
+                            \{
+                                image3.Source = im4;\\
+                                image2.Source = im2;\\
+                                image3.Margin = new Thickness(k1, 170, 0, 0); k1 = k1 - 10;\\
+                                image2.Margin = new Thickness(k, 210, 0, 0); k = k + 10;\\
+                                j = 0;
+                                if (k > 240 && k1 < 260)
+                                    flag1 = false;
+                            \}
+                        \}
+                        else
+                        \{
+                            image4.Margin = new Thickness(111,k2, 0, 0); k2 = k2 - 5;\\
+                            image5.Margin = new Thickness(27, k2, 0, 0); k2 = k2 - 5;\\
+                            if (k3 > 270)
+                            \{
+                                image6.Margin = new Thickness(277, k3, 0, 0); k3 = k3 - 5;
+                            \}
+                            else
+                                flag = false;
+
+                        \}
+                    \}
+                    else
+                    \{
+                        NavigationService.Navigate(new Uri("/Page34.xaml", UriKind.Relative));
+                    \}
+                \});
+            \}
+            //    doStuff3();
+        \}
+    \}
+\}
+
+\rmfamily

@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<AbsoluteLayout
+android:id="@+id/widget0"
+android:layout_width="fill_parent"
+android:layout_height="fill_parent"
+android:background="@drawable/bvb"
+xmlns:android="http://schemas.android.com/apk/res/android"
+>
+<TextView
+android:id="@+id/widget30"
+android:layout_width="319px"
+android:layout_height="28px"
+android:text="SLIMS"
+android:textSize="20sp"
+android:typeface="sans"
+android:textStyle="bold|italic"
+android:gravity="center"
+android:layout_x="0px"
+android:layout_y="1px"
+>
+</TextView>
+<TextView
+android:id="@+id/widget31"
+android:layout_width="320px"
+android:layout_height="30px"
+android:text="Student &amp; Lecturer Information Management"
+android:textStyle="bold|italic"
+android:gravity="center"
+android:layout_x="0px"
+android:layout_y="30px"
+>
+</TextView>
+<TextView
+android:id="@+id/widget32"
+android:layout_width="319px"
+android:layout_height="25px"
+android:text="Systems"
+android:textStyle="bold|italic"
+android:gravity="center"
+android:layout_x="0px"
+android:layout_y="55px"
+>
+</TextView>
+<TextView
+android:id="@+id/widget40"
+android:layout_width="67px"
+android:layout_height="31px"
+android:text="Lecturer"
+android:textStyle="bold|italic"
+android:gravity="center"
+android:layout_x="160px"
+android:layout_y="182px"
+>
+</TextView>
+<TextView
+android:id="@+id/widget41"
+android:layout_width="63px"
+android:layout_height="26px"
+android:text="Student"
+android:textStyle="bold|italic"
+android:gravity="center"
+android:layout_x="165px"
+android:layout_y="221px"
+>
+</TextView>
+
+<Button
+    android:id="@+id/widget46"
+    android:layout_width="wrap_content"
+    android:layout_height="35dp"
+    android:layout_x="241px"
+    android:layout_y="216px"
+    android:text="Open" >
+
+</Button>
+
+<Button
+    android:id="@+id/widget45"
+    android:layout_width="wrap_content"
+    android:layout_height="35dp"
+    android:layout_x="240dp"
+    android:layout_y="173dp"
+    android:text="Open" />
+
+</AbsoluteLayout>

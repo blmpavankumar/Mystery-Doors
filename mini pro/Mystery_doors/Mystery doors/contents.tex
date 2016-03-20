@@ -1,0 +1,20 @@
+\normalsize
+        \pagestyle{plain}
+        \pagenumbering{roman}
+	\tableofcontents
+        \cleardoublepage
+                \listoffigures
+	\listoftables
+        \cleardoublepage
+                
+        \pagestyle{headings}
+
+\pagestyle{fancy}
+% with this we ensure that the chapter and section
+% headings are in lowercase.
+\renewcommand{\chaptermark}[1]{\markboth{#1}{}}
+\renewcommand{\sectionmark}[1]{\markright{\thesection\ #1}}
+\fancyhf{} % delete current setting for header and footer
+%\fancyhead[LE,RO]{\bfseries\thepage} %page number
+\fancyhead[LE,RO]{\bfseries\thepage} %page number
+%\fancyhead[LO]{\bfseries\rightmark}   %page heading, keep this for current page heading

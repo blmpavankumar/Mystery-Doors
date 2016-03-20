@@ -1,0 +1,53 @@
+﻿<phone:PhoneApplicationPage 
+    x:Class="MD.Page33"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:phone="clr-namespace:Microsoft.Phone.Controls;assembly=Microsoft.Phone"
+    xmlns:shell="clr-namespace:Microsoft.Phone.Shell;assembly=Microsoft.Phone"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    FontFamily="{StaticResource PhoneFontFamilyNormal}"
+    FontSize="{StaticResource PhoneFontSizeNormal}"
+    Foreground="{StaticResource PhoneForegroundBrush}"
+    SupportedOrientations="Landscape" Orientation="Landscape"
+    mc:Ignorable="d" d:DesignHeight="480" d:DesignWidth="728"
+    shell:SystemTray.IsVisible="True">
+
+    <!--LayoutRoot is the root grid where all page content is placed-->
+    <Grid x:Name="LayoutRoot" Background="Transparent">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="*"/>
+        </Grid.RowDefinitions>
+
+        <!--TitlePanel contains the name of the application and page title-->
+        <StackPanel x:Name="TitlePanel" Grid.Row="0" Margin="12,17,0,28"></StackPanel>
+
+        <!--ContentPanel - place additional content here-->
+        <Grid x:Name="ContentPanel" Margin="12,17,12,0" Grid.RowSpan="2">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="369*" />
+                <ColumnDefinition Width="335*" />
+            </Grid.ColumnDefinitions>
+            <Image Height="451" HorizontalAlignment="Left" Margin="6,6,0,0" Name="image1" Stretch="Fill" VerticalAlignment="Top" Width="698" Grid.ColumnSpan="2" Source="/MD;component/Images/vlcsnap-2012-05-01-09h00m49s90.png" />
+            <Image Height="172" HorizontalAlignment="Left" Margin="262,222,0,0" Name="image2" Stretch="Fill" VerticalAlignment="Top" Width="86" Source="/MD;component/Images/dhj.png" />
+            <Image Height="287" HorizontalAlignment="Left" Margin="260,170,0,0" Name="image3" Stretch="Fill" VerticalAlignment="Top" Width="224" Source="/MD;component/Images/asa.png" Grid.ColumnSpan="2" />
+            <Image Grid.Column="1" Height="150" HorizontalAlignment="Left" Margin="111,300,0,0" Name="image4" Stretch="Fill" VerticalAlignment="Top" Width="130" Source="/MD;component/Images/hearts.png" />
+            <Image Height="150" HorizontalAlignment="Left" Margin="27,300,0,0" Name="image5" Stretch="Fill" VerticalAlignment="Top" Width="133" Source="/MD;component/Images/hearts.png" />
+            <Image Height="123" HorizontalAlignment="Left" Margin="279,300,0,0" Name="image6" Stretch="Fill" VerticalAlignment="Top" Width="117" Source="/MD;component/Images/1212.png" Grid.ColumnSpan="2" />
+        </Grid>
+    </Grid>
+ 
+    <!--Sample code showing usage of ApplicationBar-->
+    <!--<phone:PhoneApplicationPage.ApplicationBar>
+        <shell:ApplicationBar IsVisible="True" IsMenuEnabled="True">
+            <shell:ApplicationBarIconButton IconUri="/Images/appbar_button1.png" Text="Button 1"/>
+            <shell:ApplicationBarIconButton IconUri="/Images/appbar_button2.png" Text="Button 2"/>
+            <shell:ApplicationBar.MenuItems>
+                <shell:ApplicationBarMenuItem Text="MenuItem 1"/>
+                <shell:ApplicationBarMenuItem Text="MenuItem 2"/>
+            </shell:ApplicationBar.MenuItems>
+        </shell:ApplicationBar>
+    </phone:PhoneApplicationPage.ApplicationBar>-->
+
+</phone:PhoneApplicationPage>

@@ -1,0 +1,102 @@
+C:\Users\prince\Documents\Visual Studio 2010\Projects\MD\MD\Bin\Debug\ApplicationIcon.png
+C:\Users\prince\Documents\Visual Studio 2010\Projects\MD\MD\Bin\Debug\Background.png
+C:\Users\prince\Documents\Visual Studio 2010\Projects\MD\MD\Bin\Debug\MD.dll
+C:\Users\prince\Documents\Visual Studio 2010\Projects\MD\MD\Bin\Debug\MD.pdb
+C:\Users\prince\Documents\Visual Studio 2010\Projects\MD\MD\Bin\Debug\AppManifest.xaml
+C:\Users\prince\Documents\Visual Studio 2010\Projects\MD\MD\Bin\Debug\MD.xap
+C:\Users\prince\Documents\Visual Studio 2010\Projects\MD\MD\Bin\Debug\Mystery Doors.dll
+C:\Users\prince\Documents\Visual Studio 2010\Projects\MD\MD\Bin\Debug\Mystery Doors.pdb
+C:\Users\prince\Documents\Visual Studio 2010\Projects\MD\MD\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\prince\Documents\Visual Studio 2010\Projects\MD\MD\obj\Debug\App.g.i.cs
+C:\Users\prince\Documents\Visual Studio 2010\Projects\MD\MD\obj\Debug\Page2.g.i.cs
+C:\Users\prince\Documents\Visual Studio 2010\Projects\MD\MD\obj\Debug\MD.g.resources
+C:\Users\prince\Documents\Visual Studio 2010\Projects\MD\MD\obj\Debug\MD.dll
+C:\Users\prince\Documents\Visual Studio 2010\Projects\MD\MD\obj\Debug\MD.pdb
+C:\Users\prince\Documents\Visual Studio 2010\Projects\MD\MD\obj\Debug\XapCacheFile.xml
+C:\Users\prince\Documents\Visual Studio 2010\Projects\MD\MD\obj\Debug\Page1.g.i.cs
+C:\Users\prince\Documents\Visual Studio 2010\Projects\MD\MD\obj\Debug\Page4.g.i.cs
+C:\Users\prince\Documents\Visual Studio 2010\Projects\MD\MD\Bin\Debug\try_audio.dll
+C:\Users\prince\Documents\Visual Studio 2010\Projects\MD\MD\Bin\Debug\try_audio.pdb
+C:\Users\prince\Documents\Visual Studio 2010\Projects\MD\MD\obj\Debug\Page3.g.i.cs
+C:\Users\prince\Documents\Visual Studio 2010\Projects\MD\MD\obj\Debug\Page5.g.i.cs
+C:\Users\prince\Documents\Visual Studio 2010\Projects\MD\MD\obj\Debug\Page6.g.i.cs
+C:\Users\prince\Documents\Visual Studio 2010\Projects\MD\MD\obj\Debug\Page7.g.i.cs
+C:\Users\prince\Documents\Visual Studio 2010\Projects\MD\MD\obj\Debug\Page8.g.i.cs
+C:\Users\prince\Documents\Visual Studio 2010\Projects\MD\MD\obj\Debug\Page9.g.i.cs
+C:\Users\prince\Documents\Visual Studio 2010\Projects\MD\MD\obj\Debug\Page10.g.i.cs
+C:\Users\prince\Documents\Visual Studio 2010\Projects\MD\MD\obj\Debug\Page11.g.i.cs
+C:\Users\prince\Documents\Visual Studio 2010\Projects\MD\MD\obj\Debug\Page12.g.i.cs
+C:\Users\prince\Documents\Visual Studio 2010\Projects\MD\MD\obj\Debug\Page13.g.i.cs
+C:\Users\prince\Documents\Visual Studio 2010\Projects\MD\MD\obj\Debug\Page14.g.i.cs
+C:\Users\prince\Documents\Visual Studio 2010\Projects\MD\MD\obj\Debug\Page15.g.i.cs
+C:\Users\prince\Documents\Visual Studio 2010\Projects\MD\MD\obj\Debug\Page16.g.i.cs
+C:\Users\prince\Documents\Visual Studio 2010\Projects\MD\MD\obj\Debug\Page17.g.i.cs
+C:\Users\prince\Documents\Visual Studio 2010\Projects\MD\MD\obj\Debug\Page18.g.i.cs
+C:\Users\prince\Documents\Visual Studio 2010\Projects\MD\MD\obj\Debug\Page19.g.i.cs
+C:\Users\prince\Documents\Visual Studio 2010\Projects\MD\MD\obj\Debug\Page20.g.i.cs
+C:\Users\prince\Documents\Visual Studio 2010\Projects\MD\MD\obj\Debug\Page21.g.i.cs
+C:\Users\prince\Documents\Visual Studio 2010\Projects\MD\MD\obj\Debug\Page22.g.i.cs
+C:\Users\prince\Documents\Visual Studio 2010\Projects\MD\MD\obj\Debug\Page23.g.i.cs
+C:\Users\prince\Documents\Visual Studio 2010\Projects\MD\MD\obj\Debug\Page24.g.i.cs
+C:\Users\prince\Documents\Visual Studio 2010\Projects\MD\MD\obj\Debug\Page25.g.i.cs
+C:\Users\prince\Documents\Visual Studio 2010\Projects\MD\MD\obj\Debug\Page26.g.i.cs
+C:\Users\prince\Documents\Visual Studio 2010\Projects\MD\MD\obj\Debug\Page27.g.i.cs
+C:\Users\prince\Documents\Visual Studio 2010\Projects\MD\MD\obj\Debug\Page28.g.i.cs
+C:\Users\prince\Documents\Visual Studio 2010\Projects\MD\MD\obj\Debug\Page29.g.i.cs
+C:\Users\prince\Documents\Visual Studio 2010\Projects\MD\MD\obj\Debug\Page30.g.i.cs
+C:\Users\prince\Documents\Visual Studio 2010\Projects\MD\MD\obj\Debug\Page31.g.i.cs
+C:\Users\prince\Documents\Visual Studio 2010\Projects\MD\MD\obj\Debug\Page32.g.i.cs
+C:\Users\prince\Documents\Visual Studio 2010\Projects\MD\MD\obj\Debug\Page33.g.i.cs
+C:\Users\prince\Documents\Visual Studio 2010\Projects\MD\MD\obj\Debug\Page34.g.i.cs
+C:\Users\prince\Documents\Visual Studio 2010\Projects\MD\MD\obj\Debug\Page35.g.i.cs
+C:\Users\prince\Documents\Visual Studio 2010\Projects\MD\MD\obj\Debug\Page36.g.i.cs
+C:\Users\dell\Desktop\MD\MD\Bin\Debug\ApplicationIcon.png
+C:\Users\dell\Desktop\MD\MD\Bin\Debug\Background.png
+C:\Users\dell\Desktop\MD\MD\Bin\Debug\MD.dll
+C:\Users\dell\Desktop\MD\MD\Bin\Debug\MD.pdb
+C:\Users\dell\Desktop\MD\MD\Bin\Debug\AppManifest.xaml
+C:\Users\dell\Desktop\MD\MD\Bin\Debug\MD.xap
+C:\Users\dell\Desktop\MD\MD\Bin\Debug\Mystery Doors.pdb
+C:\Users\dell\Desktop\MD\MD\Bin\Debug\try_audio.pdb
+C:\Users\dell\Desktop\MD\MD\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\dell\Desktop\MD\MD\obj\Debug\App.g.i.cs
+C:\Users\dell\Desktop\MD\MD\obj\Debug\Page1.g.i.cs
+C:\Users\dell\Desktop\MD\MD\obj\Debug\Page10.g.i.cs
+C:\Users\dell\Desktop\MD\MD\obj\Debug\Page11.g.i.cs
+C:\Users\dell\Desktop\MD\MD\obj\Debug\Page12.g.i.cs
+C:\Users\dell\Desktop\MD\MD\obj\Debug\Page13.g.i.cs
+C:\Users\dell\Desktop\MD\MD\obj\Debug\Page14.g.i.cs
+C:\Users\dell\Desktop\MD\MD\obj\Debug\Page15.g.i.cs
+C:\Users\dell\Desktop\MD\MD\obj\Debug\Page16.g.i.cs
+C:\Users\dell\Desktop\MD\MD\obj\Debug\Page17.g.i.cs
+C:\Users\dell\Desktop\MD\MD\obj\Debug\Page18.g.i.cs
+C:\Users\dell\Desktop\MD\MD\obj\Debug\Page19.g.i.cs
+C:\Users\dell\Desktop\MD\MD\obj\Debug\Page2.g.i.cs
+C:\Users\dell\Desktop\MD\MD\obj\Debug\Page20.g.i.cs
+C:\Users\dell\Desktop\MD\MD\obj\Debug\Page21.g.i.cs
+C:\Users\dell\Desktop\MD\MD\obj\Debug\Page22.g.i.cs
+C:\Users\dell\Desktop\MD\MD\obj\Debug\Page23.g.i.cs
+C:\Users\dell\Desktop\MD\MD\obj\Debug\Page24.g.i.cs
+C:\Users\dell\Desktop\MD\MD\obj\Debug\Page25.g.i.cs
+C:\Users\dell\Desktop\MD\MD\obj\Debug\Page26.g.i.cs
+C:\Users\dell\Desktop\MD\MD\obj\Debug\Page27.g.i.cs
+C:\Users\dell\Desktop\MD\MD\obj\Debug\Page28.g.i.cs
+C:\Users\dell\Desktop\MD\MD\obj\Debug\Page29.g.i.cs
+C:\Users\dell\Desktop\MD\MD\obj\Debug\Page3.g.i.cs
+C:\Users\dell\Desktop\MD\MD\obj\Debug\Page30.g.i.cs
+C:\Users\dell\Desktop\MD\MD\obj\Debug\Page31.g.i.cs
+C:\Users\dell\Desktop\MD\MD\obj\Debug\Page32.g.i.cs
+C:\Users\dell\Desktop\MD\MD\obj\Debug\Page33.g.i.cs
+C:\Users\dell\Desktop\MD\MD\obj\Debug\Page34.g.i.cs
+C:\Users\dell\Desktop\MD\MD\obj\Debug\Page35.g.i.cs
+C:\Users\dell\Desktop\MD\MD\obj\Debug\Page36.g.i.cs
+C:\Users\dell\Desktop\MD\MD\obj\Debug\Page4.g.i.cs
+C:\Users\dell\Desktop\MD\MD\obj\Debug\Page5.g.i.cs
+C:\Users\dell\Desktop\MD\MD\obj\Debug\Page6.g.i.cs
+C:\Users\dell\Desktop\MD\MD\obj\Debug\Page7.g.i.cs
+C:\Users\dell\Desktop\MD\MD\obj\Debug\Page8.g.i.cs
+C:\Users\dell\Desktop\MD\MD\obj\Debug\Page9.g.i.cs
+C:\Users\dell\Desktop\MD\MD\obj\Debug\MD.g.resources
+C:\Users\dell\Desktop\MD\MD\obj\Debug\MD.dll
+C:\Users\dell\Desktop\MD\MD\obj\Debug\MD.pdb
+C:\Users\dell\Desktop\MD\MD\obj\Debug\XapCacheFile.xml

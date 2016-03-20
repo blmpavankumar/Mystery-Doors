@@ -1,0 +1,7 @@
+﻿<Deployment xmlns="http://schemas.microsoft.com/client/2007/deployment" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" EntryPointAssembly="MD" EntryPointType="MD.App" RuntimeVersion="4.7.50308.0">
+  <Deployment.Parts>
+    <AssemblyPart x:Name="MD" Source="MD.dll" />
+    <AssemblyPart x:Name="Mystery Doors" Source="Mystery Doors.dll" />
+    <AssemblyPart x:Name="try_audio" Source="try_audio.dll" />
+  </Deployment.Parts>
+</Deployment>

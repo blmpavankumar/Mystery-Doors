@@ -1,0 +1,185 @@
+\chapter{PROTOTYPE TESTING}
+
+Testing is the activity conducted to detect the errors or exceptions in the system. It is a quality management process carried on so that the product can be checked with the expectations of the system. The system is tested in two phases with unit and system testing unit testing is carried on and when the each module is coded. After the successful completion of each modules the system is integrated and validated through a complete testing to creep the errors. The software is tested with the necessary test cases to verify the accuracy of the product developed.
+\paragraph\ \hspace{0.5cm} Test cases are the checking conditions for knowing whether the program or the part of the program is working properly. The test cases or defined before we start implementing the code. The test cases are at module level and system level as well. The test cases for our program are as follows:
+
+\section{Flash Screen(Valid)}
+\hspace{1cm} \\
+Table 4.1 gives the description of valid test case for Flash screen. when the application is loaded ,it opens with the welcome screen displaying welcome to Mystery doors and it displays it.\\
+
+\begin{table}[htb!]
+\label{table : 11}
+\centering % used for centering table
+\begin{tabular}{c c} % centered columns (4 columns)
+\hline\hline %inserts double horizontal lines
+ Component & Description \\ [0.5ex] % inserts table
+%heading
+\hline % inserts single horizontal line
+Test Case ID & TC6\_1   \\
+ % inserting body of the table
+Unit to test &Flash screen. \\ 
+Test Data &Welcome screen.\\
+Steps to be executed &1. Display the Welcome screen\\
+& ‘Welcome to Mystery doors for .\\
+
+
+
+Expected result  &Displays the flash screen\\ 
+Actual result &Displays the flash screen\\
+Pass/Fail &Pass\\
+Comment &---------\\
+
+
+\hline %inserts single line
+\end{tabular}
+\caption{Valid test case for Flash Screen} \label{table:tc11} % is used to refer this table in the text                                                                                                                                                                              
+\end{table}
+
+\section{Flash Screen(InValid)}
+\hspace{1cm} \\
+Table 4.2 gives the description of invalid test case for Flash Screen.The GUI fails due to abnormal jumping of xaml pages  or it may due to the thread created for 2 sec may not invoked so flash screen is not displayed\\
+
+\begin{table}[htb!]
+\label{table : 11}
+\centering % used for centering table
+\begin{tabular}{c c} % centered columns (4 columns)
+\hline\hline %inserts double horizontal lines
+ Component & Description \\ [0.5ex] % inserts table
+%heading
+\hline % inserts single horizontal line
+Test Case ID & TC6\_1   \\
+ % inserting body of the table
+Unit to test &Flash Screen. \\ 
+Test Data &Welcome screen.\\
+Steps to be executed &1. Display the Welcome screen\\
+& ‘Welcome to mystry doors for 2 sec.\\
+
+
+Expected result  &Displays the flash screen\\ 
+Actual result &Force close\\
+Pass/Fail &Fail\\
+Comment &1.Error in application due to \\
+&abnormal jumping of xaml pages.\\
+&2.The thread created for 2 \\
+&sec is not invoked so flash screen is not displayed.\\
+
+\hline %inserts single line
+\end{tabular}
+\caption{Invalid test case for  Flash Screen} \label{table:tc11} % is used to refer this table in the text                                                                                                                                                                              
+\end{table}
+
+\section{Ok Button(Valid)}
+\hspace{1cm} \\
+Table 4.3 gives the description of valid test case for ok button.Initially ok button is with page is opened with  text areas for entering answer and to confirm. Enter the correct answer and  then click on to ok button.  If there is a correct match a toast message with right answer is displayed.\\
+\vspace{1cm}
+\begin{table}[htb!]
+\label{table : tc11}
+\centering % used for centering table
+\begin{tabular}{c c} % centered columns (4 columns)
+\hline\hline %inserts double horizontal lines
+ Component & Description \\ [0.5ex] % inserts table
+%heading
+\hline % inserts single horizontal line
+Test Case ID & TC6\_1   \\
+ % inserting body of the table
+Unit to test &ok button. \\ 
+Test Data &Text area (enter correct answer.)\\
+&Button(ok)\\
+Steps to be executed &1. Enter the correct answer.\\
+&2.Click on to ‘ok’ button.\\
+Expected result  &right answer\\ 
+Actual result &right answer.\\
+Pass/Fail &Pass\\
+Comment &........\\
+
+\hline %inserts single line
+\end{tabular}
+\caption{Valid test case for ok button} \label{table:tc11} % is used to refer this table in the text                                                                                                                                                                              
+\end{table}
+
+\section{Ok Button(InValid)}
+\hspace{1cm} \\
+Table 4.4 gives the description of valid test case for ok button.Initially ok button  is opened with  text areas for entering answer and to confirm. Enter the wrong  answer for more than 3 times and  then click on to ok button.  If there is a incorrect match a toast message with wrong  answer is displayed.\\
+\vspace{1cm}
+\begin{table}[htb!]
+\label{table :tc11}
+\centering % used for centering table
+\begin{tabular}{c c} % centered columns (4 columns)
+\hline\hline %inserts double horizontal lines
+ Component & Description \\ [0.5ex] % inserts table
+%heading
+\hline % inserts single horizontal line
+Test Case ID & TC6\_1   \\
+ % inserting body of the table
+Unit to test &ok button. \\ 
+Test Data &Text area (enter wrong answer more than 3 times.),\\
+&Button(ok)\\
+Steps to be executed &1. Enter the wrong answer more than 3 times .\\
+&2.Click on to ‘ok’ button.\\
+Expected result  &correct answer.\\ 
+Actual result &wrong answer.\\
+Pass/Fail &Fail\\
+Comment &1.If there is no match found between entered\\
+& answer and correct answer   User has\\
+& failed to give correct answer and  cannot go to the next level.\\
+
+\hline %inserts single line
+\end{tabular}
+\caption{Invalid test case for ok button} \label{table:tc11} % is used to refer this table in the text                                                                                                                                                                              
+\end{table}
+
+\section{Continue Button(Valid)}
+\hspace{1cm} \\
+Table 4.5 gives the description of valid test case for continue button.If  the answer is correct then he is allowed move on to the next level.\\
+
+\begin{table}[htb!]
+\label{table : tc11}
+\centering % used for centering table
+\begin{tabular}{c c} % centered columns (4 columns)
+\hline\hline %inserts double horizontal lines
+ Component & Description \\ [0.5ex] % inserts table
+%heading
+\hline % inserts single horizontal line
+Test Case ID & TC6\_1   \\
+ % inserting body of the table
+Unit to test &after level page. \\ 
+Test Data &correct answer\\
+Steps to be executed &1. Enter the correct answer .\\
+Expected result  &Opening of next xaml page.\\ 
+Actual result &Opening of next xaml page.\\
+Pass/Fail &Pass\\
+Comment &........\\
+
+\hline %inserts single line
+\end{tabular}
+\caption{Valid test case for continue button} \label{table:tc11} % is used to refer this table in the text                                                                                                                                                                              
+\end{table}
+
+
+
+\section{Continue Button(InValid)}
+\hspace{1cm} \\
+Table 4.6 gives the description of  invalid test case for continue button.If the entered answer is correct, the user  is not allowed to move to next level.\\
+\vspace{1cm}
+\begin{table}[htb!]
+\label{table :tc11}
+\centering % used for centering table
+\begin{tabular}{c c} % centered columns (4 columns)
+\hline\hline %inserts double horizontal lines
+ Component & Description \\ [0.5ex] % inserts table
+%heading
+\hline % inserts single horizontal line
+Test Case ID & TC6\_1   \\
+ % inserting body of the table
+Unit to test &.after level page \\ 
+Test Data &correct answer\\
+Steps to be executed &1. Enter the correct answer .\\
+Expected result  &start of next level.\\ 
+Actual result &jumps to next level after a delay.\\
+Pass/Fail &Fail\\
+
+
+\hline %inserts single line
+\end{tabular}
+\caption{Invalid test case for continue button} \label{table:tc11} % is used to refer this table in the text                                                                                                                                                                              
+\end{table}

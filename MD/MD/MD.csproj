@@ -1,0 +1,431 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>10.0.20506</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{16868FA2-226F-49ED-8E92-7FD31FF26FEE}</ProjectGuid>
+    <ProjectTypeGuids>{C089C8C0-30E0-4E22-80C0-CE093F111A43};{fae04ec0-301f-11d3-bf4b-00c04f79efbc}</ProjectTypeGuids>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>MD</RootNamespace>
+    <AssemblyName>MD</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <SilverlightVersion>$(TargetFrameworkVersion)</SilverlightVersion>
+    <TargetFrameworkProfile>WindowsPhone71</TargetFrameworkProfile>
+    <TargetFrameworkIdentifier>Silverlight</TargetFrameworkIdentifier>
+    <SilverlightApplication>true</SilverlightApplication>
+    <SupportedCultures>
+    </SupportedCultures>
+    <XapOutputs>true</XapOutputs>
+    <GenerateSilverlightManifest>true</GenerateSilverlightManifest>
+    <XapFilename>MD.xap</XapFilename>
+    <SilverlightManifestTemplate>Properties\AppManifest.xml</SilverlightManifestTemplate>
+    <SilverlightAppEntry>MD.App</SilverlightAppEntry>
+    <ValidateXaml>true</ValidateXaml>
+    <ThrowErrorsInValidation>true</ThrowErrorsInValidation>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>Bin\Debug</OutputPath>
+    <DefineConstants>DEBUG;TRACE;SILVERLIGHT;WINDOWS_PHONE</DefineConstants>
+    <NoStdLib>true</NoStdLib>
+    <NoConfig>true</NoConfig>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>Bin\Release</OutputPath>
+    <DefineConstants>TRACE;SILVERLIGHT;WINDOWS_PHONE</DefineConstants>
+    <NoStdLib>true</NoStdLib>
+    <NoConfig>true</NoConfig>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup>
+    <RunPostBuildEvent>OnOutputUpdated</RunPostBuildEvent>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Microsoft.Phone" />
+    <Reference Include="Microsoft.Phone.Interop" />
+    <Reference Include="Microsoft.Xna.Framework" />
+    <Reference Include="Microsoft.Xna.Framework.Avatar" />
+    <Reference Include="Mystery Doors">
+      <HintPath>..\..\PhoneApp1\PhoneApp1\Bin\Debug\Mystery Doors.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Windows" />
+    <Reference Include="system" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Net" />
+    <Reference Include="System.Xml" />
+    <Reference Include="mscorlib.extensions" />
+    <Reference Include="try_audio">
+      <HintPath>..\..\try_audio\try_audio\Bin\Debug\try_audio.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="App.xaml.cs">
+      <DependentUpon>App.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Bool.cs" />
+    <Compile Include="Page1.xaml.cs">
+      <DependentUpon>Page1.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Page10.xaml.cs">
+      <DependentUpon>Page10.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Page11.xaml.cs">
+      <DependentUpon>Page11.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Page12.xaml.cs">
+      <DependentUpon>Page12.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Page13.xaml.cs">
+      <DependentUpon>Page13.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Page14.xaml.cs">
+      <DependentUpon>Page14.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Page15.xaml.cs">
+      <DependentUpon>Page15.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Page16.xaml.cs">
+      <DependentUpon>Page16.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Page17.xaml.cs">
+      <DependentUpon>Page17.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Page18.xaml.cs">
+      <DependentUpon>Page18.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Page19.xaml.cs">
+      <DependentUpon>Page19.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Page2.xaml.cs">
+      <DependentUpon>Page2.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Page20.xaml.cs">
+      <DependentUpon>Page20.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Page21.xaml.cs">
+      <DependentUpon>Page21.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Page22.xaml.cs">
+      <DependentUpon>Page22.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Page23.xaml.cs">
+      <DependentUpon>Page23.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Page24.xaml.cs">
+      <DependentUpon>Page24.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Page25.xaml.cs">
+      <DependentUpon>Page25.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Page26.xaml.cs">
+      <DependentUpon>Page26.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Page27.xaml.cs">
+      <DependentUpon>Page27.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Page28.xaml.cs">
+      <DependentUpon>Page28.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Page29.xaml.cs">
+      <DependentUpon>Page29.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Page3.xaml.cs">
+      <DependentUpon>Page3.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Page30.xaml.cs">
+      <DependentUpon>Page30.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Page31.xaml.cs">
+      <DependentUpon>Page31.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Page32.xaml.cs">
+      <DependentUpon>Page32.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Page33.xaml.cs">
+      <DependentUpon>Page33.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Page34.xaml.cs">
+      <DependentUpon>Page34.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Page35.xaml.cs">
+      <DependentUpon>Page35.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Page36.xaml.cs">
+      <DependentUpon>Page36.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Page4.xaml.cs">
+      <DependentUpon>Page4.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Page5.xaml.cs">
+      <DependentUpon>Page5.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Page6.xaml.cs">
+      <DependentUpon>Page6.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Page7.xaml.cs">
+      <DependentUpon>Page7.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Page8.xaml.cs">
+      <DependentUpon>Page8.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Page9.xaml.cs">
+      <DependentUpon>Page9.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <ApplicationDefinition Include="App.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </ApplicationDefinition>
+    <Page Include="Page1.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Page10.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Page11.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Page12.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Page13.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Page14.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Page15.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Page16.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Page17.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Page18.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Page19.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Page2.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Page20.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Page21.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Page22.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Page23.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Page24.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Page25.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Page26.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Page27.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Page28.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Page29.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Page3.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Page30.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Page31.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Page32.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Page33.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Page34.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Page35.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Page36.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Page4.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Page5.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Page6.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Page7.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Page8.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Page9.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Properties\AppManifest.xml" />
+    <None Include="Properties\WMAppManifest.xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="v2.png" />
+    <Resource Include="v1.png" />
+    <Resource Include="1.png" />
+    <Resource Include="2.png" />
+    <Content Include="ApplicationIcon.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Background.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Resource Include="xasd %282%29.png" />
+    <Resource Include="xasd %283%29.png" />
+    <Resource Include="xasd %284%29.png" />
+    <Resource Include="xasd %285%29.png" />
+    <Resource Include="xasd.png" />
+    <Resource Include="xaa.png" />
+    <Resource Include="ww.png" />
+    <Resource Include="Xtvv.jpg" />
+    <Resource Include="w.png" />
+    <Resource Include="Images\mystery doors %282%29.jpg" />
+    <Resource Include="Images\i1.jpg" />
+    <Resource Include="Images\i2.jpg" />
+    <Resource Include="Images\i3.gif" />
+    <Resource Include="Images\i4.gif" />
+    <Resource Include="Images\i5.jpg" />
+    <Resource Include="Images\i6.jpg" />
+    <Resource Include="Images\i3.jpg" />
+    <Resource Include="Images\i9.jpg" />
+    <Resource Include="Images\i7.jpg" />
+    <Resource Include="Images\i8.jpg" />
+    <Resource Include="Images\i10.jpg" />
+    <Resource Include="Images\mystery doors.jpg" />
+    <Resource Include="Images\mystery doors %282%291.jpg" />
+    <Resource Include="Images\asb.gif" />
+    <Resource Include="Images\X %282%29.jpg" />
+    <Resource Include="Images\ssd.jpg" />
+    <Resource Include="Images\z.png" />
+    <Resource Include="sds.png" />
+    <Resource Include="Images\ab.jpg" />
+    <Resource Include="Images\sds.png" />
+    <Resource Include="Images\X.jpg" />
+    <Resource Include="Images\zasatv.jpg" />
+    <Resource Include="Images\Xtv.jpg" />
+    <Resource Include="q.png" />
+    <Resource Include="qq.png" />
+    <Resource Include="dhaka1.png" />
+    <Resource Include="dhaka2.png" />
+    <Resource Include="dhaka3.png" />
+    <Resource Include="sasc.png" />
+    <Resource Include="Images\mp1.png" />
+    <Resource Include="Images\zasa.jpg" />
+    <Resource Include="fg.png" />
+    <Resource Include="life.png" />
+    <Resource Include="fsd.png" />
+    <Resource Include="Images\23.png" />
+    <Resource Include="Images\1478147.jpg" />
+    <Resource Include="Images\vlcsnap-2012-05-01-09h00m49s90.png" />
+    <Resource Include="Images\asa.png" />
+    <Resource Include="Images\asb.png" />
+    <Resource Include="Images\d.png" />
+    <Resource Include="Images\dhj.png" />
+    <Resource Include="Images\1212.png" />
+    <Resource Include="Images\hearts.png" />
+    <Resource Include="Images\231.png" />
+    <Resource Include="Images\494414-a-r-e-s-extinction-agenda-windows-screenshot-game-over-screens.jpg" />
+    <Resource Include="Images\494414-a-r-e-s-extinction-agenda-windows-screenshot-game-over-screens1.jpg" />
+    <Resource Include="Images\ICA2ZG67PCA62EDYDCAL9C5JJCAP0CN7HCA3SVZGLCAND0QFVCAB228BCCAB1F62PCAUFSK3FCA6AWUJWCAV4R12JCAI7GO0KCAIK2R4VCANXJ8HQCA1SCGLBCAWFAC3KCAEYII0ZCA0WLIQECANHSOZU.jpg" />
+    <Resource Include="Images\end.png" />
+    <Resource Include="Images\stick1.png" />
+    <Resource Include="Images\stk2.png" />
+    <Resource Include="Images\stk4.png" />
+    <Resource Include="Images\stk5.png" />
+    <Resource Include="Images\com.png" />
+    <Resource Include="Images\4-20-1-51.png" />
+    <Content Include="r1007.bmp" />
+    <Resource Include="r1031.png" />
+    <Resource Include="r1076.png" />
+    <Resource Include="sky_blue_background.png" />
+    <Content Include="SplashScreenImage.jpg" />
+  </ItemGroup>
+  <Import Project="$(MSBuildExtensionsPath)\Microsoft\Silverlight for Phone\$(TargetFrameworkVersion)\Microsoft.Silverlight.$(TargetFrameworkProfile).Overrides.targets" />
+  <Import Project="$(MSBuildExtensionsPath)\Microsoft\Silverlight for Phone\$(TargetFrameworkVersion)\Microsoft.Silverlight.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+  <ProjectExtensions />
+</Project>

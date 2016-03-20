@@ -1,0 +1,24 @@
+\pagenumbering{arabic}
+
+\fancyhead[LO]{\includegraphics[width=0.08\textwidth]{bvb_logo.JPG}}
+\fancyhead[RO]{\hspace{0.5cm}\tiny{Mystery Doors} } 
+\fancyhead[RE]{\bfseries\leftmark}
+
+
+\renewcommand{\headrulewidth}{0.5pt}
+\renewcommand{\footrulewidth}{0.5pt}
+\addtolength{\headheight}{0.5pt} % make space for the rule
+%write the department name in full with 'Department of XYZ'
+\fancyfoot[LO]{\tiny{Department of Information Science \& Engineering, B.V.B.C.E.T., Hubli - 31.}}  
+\fancyfoot[LE,RO]{\tiny\bfseries\thepage} %page number
+
+\fancypagestyle{plain}{%
+\fancyhead{} % get rid of headers on plain pages
+\renewcommand{\headrulewidth}{0pt} % and the line
+}
+\fancypagestyle{plain}{%
+\fancyfoot{} % get rid of headers on plain pages
+\renewcommand{\headrulewidth}{0pt} % and the line
+\fancyfoot[LO]{\tiny{Department of Information Science \& Engineering, B.V.B.C.E.T., Hubli - 31.}}  
+\fancyfoot[LE,RO]{\tiny\bfseries\thepage} %page number
+}

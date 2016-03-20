@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<AbsoluteLayout
+android:id="@+id/widget0"
+android:layout_width="fill_parent"
+android:layout_height="fill_parent"
+android:background="@drawable/bg5"
+xmlns:android="http://schemas.android.com/apk/res/android"
+>
+<Button
+android:id="@+id/widget34"
+android:layout_width="176px"
+android:layout_height="wrap_content"
+android:text="Set Voice Alerts"
+android:textStyle="bold|italic"
+android:gravity="center"
+android:layout_x="67px"
+android:layout_y="171px"
+>
+</Button>
+<TextView
+android:id="@+id/widget35"
+android:layout_width="264px"
+android:layout_height="24px"
+android:text="Click Your Preference:"
+android:textStyle="bold|italic"
+android:gravity="left"
+android:layout_x="1px"
+android:layout_y="130px"
+>
+</TextView>
+<Button
+android:id="@+id/widget36"
+android:layout_width="173px"
+android:layout_height="wrap_content"
+android:text="Take Attendance"
+android:textStyle="bold|italic"
+android:gravity="center"
+android:layout_x="68px"
+android:layout_y="242px"
+>
+</Button>
+</AbsoluteLayout>
